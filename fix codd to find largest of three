@@ -1,0 +1,20 @@
+Fix the code to get the largest of three.
+function large_of_three(f,s,t){
+        max_value=0;
+        if(f>s)
+        {
+         max_val=f;   
+        }else
+        {
+            max_val=s;
+        }if(t>max_value){
+            max_val=t;
+        }
+        return max_val;
+
+
+    }
+    console.log(large_of_three(1,2,3));
+    
+    ouput:
+    3
