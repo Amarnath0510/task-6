@@ -1,0 +1,28 @@
+before:
+<!DOCTYPE html>
+<html>
+<body>
+ <script>
+ alert( “I’m JavaScript!’);
+ </script>
+ Whats the error in this ?
+</body>
+</html>
+
+
+
+
+
+
+
+
+after:
+<!DOCTYPE html>
+<html>
+<body>
+ <script></script>
+ alert( “I'm JavaScript!")
+ 
+
+</body>
+</html>
